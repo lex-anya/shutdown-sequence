@@ -1,0 +1,24 @@
+<!-- Shut Down Sequence -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shut Down Sequence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen1" id="screen1">
+        <button class="cta-btn" id="startOverride"><span>SYSTEM OVERRIDE</span></button>
+    </div>
+    <div class="screen" id="screen2" style="display: none;">
+        <div class="message">SHUTDOWN PROTOCOL INITIATED</div>
+        <audio id="voiceover" src="voiceover.mp3"></audio>
+    </div>
+    <div class="screen1" id="screen3" style="display: none;">
+        <button class="action-btn" id="openMailbox">Open mailbox</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
